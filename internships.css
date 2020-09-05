@@ -1,0 +1,11 @@
+body {
+    background-color: #e6e6ff;
+}
+.heading{
+  font-size: 30px;
+  color: blue;
+}
+
+.internships {
+    column-count: 2;
+}

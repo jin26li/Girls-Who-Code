@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  animation: bgcolor infinite 20s;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  color: #555;
+  /* position: absolute; */
+}
+@keyframes bgcolor{
+  0%{
+      background: #D8F0F8;
+  }
+  20%{
+      background: #e6e6ff;
+  }
+  40%{
+      background: #F1F1D6;
+  }
+  60%{
+      background: #F0DDD5;
+  }
+  80%{
+      background: #CEDEF4;
+  }
+  100%{
+      background: #DBEBFF;
+  }
+}
+
+}
+
+.main-navigation ul {
+  position: absolute;
+  display: inline;
+  text-align: right;
+  font-size: 50px;
+}
+.main-navigation{
+  top:0px;
+  position:absolute;
+  right: 0px;
+  padding-top: 10px;
+  float: right;
+  margin: 20px;
+}
+
+.main-navigation a {
+  color: black;
+}
+.ab{
+  position:absolute;
+  left:20px;
+  top:0px;
+  h1{}
+}
+.
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 60;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+.m{
+  position:absolute;
+  top:120px;
+  left:700px;
+  font-color: black;
+}
+.r{
+  font-family: Georgia, serif
+  font-size: 20px;
+  position:absolute;
+  top:180px;
+  left:0px;
+  height;
+  font-color: black;
+}
+.p{
+  width: 15%;
+  height: 15%:
+}
+
+.w{
+  position: absolute;
+  top:1400px;
+  left:700px;
+  font-size: 30px;
+  font-color: black;
+}
+
+.bio{
+  position: relative;
+  left: 150px;
+  top: -150px;
+  margin: 10px;
+  width: 80%;
+  padding-left: 80px;
+  font-color: black;
+}
+.img{
+  position:absolute;
+  left: 375px;
+  top: 1500px;
+  width: 50%;
+  height: 50%;
+}
+.j{
+  position: absolute;
+  left: 80px;
+  top: 1900px;
+  font-size: 18px;
+  font-color: black;
+}
+
+/* .do{
+  position: relative;
+  top: -1000px;
+  left: 200px;
+} */

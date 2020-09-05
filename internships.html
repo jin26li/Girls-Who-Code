@@ -1,0 +1,119 @@
+<html>
+<head>
+  <link rel="stylesheet" href="internships.css">
+  <script src="internship.js"></script>
+  <script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+</head>
+
+
+<body>
+
+<h1>Internships and Jobs for You</h1>
+<div class="internships">
+  <p>
+  </p>
+
+  <p id="demo">
+
+  </p>
+  <div>
+
+
+  <script>
+  (function() {
+    var cx = '018071426968688710749:2y55nirgevo';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<h2>Different Careers and Available Jobs</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Click on One" title="Type in a career">
+
+<nav class = "main-navigation">
+<ul id="myUL">
+
+  <li><a href="qamanager.html"> QA manager</a></li>
+  <li><a href="softwareengineer.html">Software Engineer</a></li>
+  <li><a href="computerengineer.html">Computer Engineer</a></li>
+  <li><a href="datascientist.html">Data Scientist</a></li>
+  <li><a href="productmanager.html">Product Manager</a></li>
+  <li><a href="itmanager.html">IT Manager</a></li>
+  <li><a href="analyticsmanager.html">Analytics Manager</a></li>
+  <li><a href="solutionsarchitect.html">Solutions Architet</a></li>
+  <li><a href="computerscientist.html">Computer Scientist</a></li>
+</ul>
+</nav>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>

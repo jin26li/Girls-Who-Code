@@ -1,0 +1,26 @@
+body {
+  background-color: #ffe6ff
+}
+
+.p{
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.t{
+  font-size: 36pt;
+}
+
+.n{
+  font-size: 24pt;
+}
+
+.d{
+  font-size: 15pt;
+  position: relative;
+  left: 150px;
+  top: -150px;
+  margin: 10px;
+  width: 80%;
+  padding-left: 80px;
+}

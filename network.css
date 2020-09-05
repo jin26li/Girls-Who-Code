@@ -1,0 +1,21 @@
+.img{
+  width: 15%;
+  height: 15%:
+}
+
+.bio{
+  position: relative;
+  left: 150px;
+  top: -150px;
+  margin: 10px;
+  width: 80%;
+  padding-left: 80px;
+}
+
+.n{
+  font-size: 25px;
+}
+
+body {
+  background-color: #D8F0F8
+}
